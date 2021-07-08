@@ -1,0 +1,13 @@
+.defaultFooter {
+    height: 100%;
+    width: 100%;
+    background-color: #18140ffa;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.defaultFooter > p {
+    color: rgba(245, 245, 245, 0.877);
+    font-size: 1.5vh;
+}

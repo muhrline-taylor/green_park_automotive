@@ -1,0 +1,109 @@
+.landingHeader {
+    height: 100%;
+    width: 100%;
+    background-color: #18140ffa;
+    display: flex;
+}
+
+.landingHeader__logo {
+    flex: 0.18;
+    display: flex;
+}
+
+.landingHeader__logo > img {
+    width: auto;
+    height: 97%;
+    /* box-shadow: 0px 0px 0px 3px #1D1714; */
+    box-shadow: 0px 0px 0px 2px #201f1877;
+}
+
+.landingHeaderR {
+    flex: 0.73;
+}
+
+.landingHeaderR__top {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landingHeaderR__top > h1 {
+    color: silver;
+    font-weight: 400;
+    /* font-size: 3.38vh; */
+    font-size: 1.55vw;
+}
+
+.landingHeaderR__bottom {
+    height: 50%;
+    display: flex;
+    padding: 0 10%;
+}
+
+.landingHeaderR__bottomButton {
+    height: 80%;
+    width: 18%;
+    background-color: #1D1914;
+    margin: 1% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.landingHeaderR__bottomButton > p {
+    /* font-size: 2.55vh; */
+    font-size: 1.1vw;
+}
+
+.landingHeaderR__bottomButton:hover {
+    background-color: #3b3b3b;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.landingHeaderR__bottomButtonLarge {
+    height: 65%;
+    width: 35%;
+    background-color: #00AF40;
+    margin: -1.5% -5% 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px 12px 12px 12px;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+
+.landingHeaderR__bottomButtonLarge:hover {
+    background-color: #019c3a !important;
+    transition: 0.2s;
+}
+
+.landingHeaderR__bottomButtonLarge > p {
+    color: white;
+    /* font-size: 2vh; */
+    font-size: 1vw;
+}
+
+.landingHeaderR__bottomButton._selected_ {
+    box-shadow: 0px 7.1px 0px 0px red;
+}
+
+.landingHeader__badge {
+    flex: 0.09;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landingHeader__badge > img {
+    height: 70%;
+    width: auto;
+}
+
+
+

@@ -1,0 +1,17 @@
+.homeBody {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.homeBody::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
